@@ -1,4 +1,5 @@
 import './App.scss';
+import RatingBox from './RatingBox';
 
 function App() {
   return (
@@ -12,6 +13,11 @@ function App() {
             services.
           </h4>
         </div>
+        <div className="ratings">
+          <RatingBox text={'Rated 5 Stars in Reviews'} />
+          <RatingBox text={'Rated 5 Stars in Report Guru'} />
+          <RatingBox text={'Rated 5 Stars in BestTech'} />
+        </div>
       </header>
       <div className="container__buyer"></div>
     </div>
@@ -21,9 +27,7 @@ function App() {
 export default App;
 
 {
-  /*  We only provide great products
-combined with excellent customer service. See what our satisfied customers
-are saying about our services. Rated 5 Stars in Reviews Rated 5 Stars in
+  /*   Rated 5 Stars in Reviews Rated 5 Stars in
 Report Guru Rated 5 Stars in BestTech
 <div class="attribution">
   Challenge by

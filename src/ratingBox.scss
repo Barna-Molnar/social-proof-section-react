@@ -1,0 +1,25 @@
+@import './variables.scss';
+.ratingBox__container {
+  background-color: $color-light-grayish-mag;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1.5rem 0;
+
+  align-items: center;
+  width: 35rem;
+  border-radius: 0.6rem;
+  .container__stars {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10rem;
+    margin: 0 2rem 0 2rem;
+  }
+  img {
+    width: 13px;
+  }
+  p {
+    font-size: 10px;
+    font-weight: 700;
+    color: $color-very-dark-mag;
+  }
+}
