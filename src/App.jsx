@@ -1,6 +1,9 @@
 import './App.scss';
 import RatingBox from './RatingBox';
+import TestimonialBox from './TestimonialBox';
+import { colton, irene, anne } from './data';
 
+console.log(colton);
 function App() {
   return (
     <div className="App">
@@ -30,21 +33,25 @@ function App() {
           />
         </div>
       </header>
-      <div className="container__buyer"></div>
+      <div className="container__buyer">
+        <TestimonialBox obj={colton} />
+        <TestimonialBox obj={irene} />
+        <TestimonialBox obj={anne} />
+      </div>
     </div>
   );
 }
 
 export default App;
 
-{
-  /*   Rated 5 Stars in Reviews Rated 5 Stars in
-Report Guru Rated 5 Stars in BestTech
-<div class="attribution">
-  Challenge by
-  <a href="https://www.frontendmentor.io?ref=challenge">
-    Frontend Mentor
-  </a>
-  . Coded by <a href="#">Your Name Here</a>.
-</div> */
-}
+// {
+//   /*   Rated 5 Stars in Reviews Rated 5 Stars in
+// Report Guru Rated 5 Stars in BestTech
+// <div class="attribution">
+//   Challenge by
+//   <a href="https://www.frontendmentor.io?ref=challenge">
+//     Frontend Mentor
+//   </a>
+//   . Coded by <a href="#">Your Name Here</a>.
+// </div> */
+// }

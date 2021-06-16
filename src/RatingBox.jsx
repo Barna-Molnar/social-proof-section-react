@@ -2,7 +2,6 @@ import React from 'react';
 import './ratingBox.scss';
 
 function RatingBox({ text, style }) {
-  console.log(style);
   return (
     <div className="ratingBox__container" style={style}>
       <div className="container__stars">

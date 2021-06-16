@@ -4,13 +4,10 @@
 
   height: 100vh;
   width: 1440px;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
 
   header {
     display: flex;
-    // gap: 10rem;
+    margin-bottom: 5rem;
 
     .title {
       width: 50rem;
@@ -39,5 +36,10 @@
     .ratings > *:not(:last-child) {
       margin-bottom: 1.5rem;
     }
+  } // header closer
+
+  .container__buyer {
+    display: flex;
+    gap: 2rem;
   }
 }

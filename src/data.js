@@ -1,20 +1,22 @@
-const colton = {
+
+export const colton = {
+    imgURL: '/images/image-colton.jpg',
     name: 'Colton Smith',
-    title: "Verified Buyer",
-    text: "Weneeded the same printed design as the one we had ordered a week prior.Not only did they find the original order, but we also received it in time.Excellent!"
+    statement: "Verified Buyer",
+    text: '"We needed the same printed design as the one we had ordered a week prior.Not only did they find the original order, but we also received it in time.Excellent!"'
 
 }
-
-const irene = {
+export const irene = {
+    imgURL: '/images/image-irene.jpg',
     name: 'Irene Roberts',
-    title: "Verified Buyer",
-    text: "Customer service is alwaysexcellent and very quick turn around. Completely delighted with thesimplicity of the purchase and the speed of delivery."
+    statement: "Verified Buyer",
+    text: '"Customer service is alwaysexcellent and very quick turn around. Completely delighted with thesimplicity of the purchase and the speed of delivery."'
 
 }
-
-const anne = {
+export const anne = {
+    imgURL: '/images/image-anne.jpg',
     name: 'Anne Wallace',
-    title: "Verified Buyer",
-    text: "Put an order with this company and can only praise them for the very high standard.Will definitely use them again and recommend them to everyone!"
+    statement: "Verified Buyer",
+    text: '"Put an order with this company and can only praise them for the very high standard.Will definitely use them again and recommend them to everyone!"'
 
 }
