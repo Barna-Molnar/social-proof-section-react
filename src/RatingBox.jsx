@@ -1,9 +1,10 @@
 import React from 'react';
 import './ratingBox.scss';
 
-function RatingBox({ text }) {
+function RatingBox({ text, style }) {
+  console.log(style);
   return (
-    <div className="ratingBox__container">
+    <div className="ratingBox__container" style={style}>
       <div className="container__stars">
         <img src="/images/icon-star.svg" alt="star" />
         <img src="/images/icon-star.svg" alt="star" />
