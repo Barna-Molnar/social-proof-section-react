@@ -1,9 +1,9 @@
 import './App.scss';
 import RatingBox from './RatingBox';
 import TestimonialBox from './TestimonialBox';
-import { colton, irene, anne } from './data';
 
-console.log(colton);
+import { buyersArray } from './data';
+
 function App() {
   return (
     <div className="App">
@@ -34,9 +34,9 @@ function App() {
         </div>
       </header>
       <div className="container__buyer">
-        <TestimonialBox obj={colton} />
-        <TestimonialBox obj={irene} />
-        <TestimonialBox obj={anne} />
+        {buyersArray.map((obj, i) => (
+          <TestimonialBox obj={obj} key={i} />
+        ))}
       </div>
     </div>
   );

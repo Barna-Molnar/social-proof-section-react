@@ -4,7 +4,7 @@
   background-color: $color-very-dark-mag;
   display: flex;
   flex-direction: column;
-  padding: 3rem 2rem;
+  padding: 3rem 2.5rem;
   border-radius: 0.5rem;
   text-align: start;
 
@@ -44,7 +44,7 @@
       font-size: 11px;
       font-weight: 500;
       line-height: 1.5;
-
+      text-shadow: 0px 0px 1px rgba(#fff, 0.3);
       color: $color-light-grayish-mag;
     }
   }
