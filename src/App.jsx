@@ -34,9 +34,13 @@ function App() {
         </div>
       </header>
       <div className="container__buyer">
-        {buyersArray.map((obj, i) => (
-          <TestimonialBox obj={obj} key={i} />
-        ))}
+        <TestimonialBox obj={buyersArray[0]} alignment={'start'} />
+        <TestimonialBox obj={buyersArray[1]} alignment={'center'} />
+        <TestimonialBox obj={buyersArray[2]} alignment={'end'} />
+
+        {/* {buyersArray.map((obj, i) => (
+          <TestimonialBox obj={obj} key={i} index={i} />
+        ))} */}
       </div>
     </div>
   );

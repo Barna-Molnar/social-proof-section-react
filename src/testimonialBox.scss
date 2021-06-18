@@ -1,10 +1,10 @@
 @import './variables.scss';
 .card__container {
-  width: 30rem;
+  width: calc(90% / 3);
   background-color: $color-very-dark-mag;
   display: flex;
   flex-direction: column;
-  padding: 3rem 2.5rem;
+  padding: 4rem 3rem;
   border-radius: 0.5rem;
   text-align: start;
 
@@ -25,13 +25,13 @@
 
       h4 {
         color: $color-light-grayish-mag;
-        font-size: 11px;
+        font-size: 12px;
         font-weight: 700;
         margin-bottom: 3px;
       }
       p {
         color: $color-soft-pink;
-        font-size: 11px;
+        font-size: 12px;
         font-weight: 500;
         opacity: 0.8;
       }
@@ -41,7 +41,7 @@
   .card__body {
     p {
       position: relative;
-      font-size: 11px;
+      font-size: 12px;
       font-weight: 500;
       line-height: 1.5;
       text-shadow: 0px 0px 1px rgba(#fff, 0.3);
