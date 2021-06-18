@@ -23,3 +23,14 @@
     color: $color-very-dark-mag;
   }
 }
+@media (max-width: 1200px) {
+  .ratingBox__container {
+    flex-direction: column;
+    align-self: stretch !important;
+    padding: 1rem 5rem;
+    width: 100%;
+  }
+  p {
+    margin-top: 1rem;
+  }
+}

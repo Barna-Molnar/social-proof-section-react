@@ -49,3 +49,9 @@
     }
   }
 }
+@media (max-width: 1200px) {
+  .card__container {
+    align-self: center !important;
+    width: 100%;
+  }
+}
